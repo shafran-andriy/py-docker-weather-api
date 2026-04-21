@@ -26,8 +26,8 @@ def get_weather() -> None:
 
     print(
         f"Current weather in {CITY}: "
-        f"{condition}, {temperature}C,
-        feels like {feels_like}C, humidity {humidity}%"
+        f"{condition}, {temperature}C,"
+        f" feels like {feels_like}C, humidity {humidity}%"
     )
 
 
